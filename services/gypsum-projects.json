@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Karen Residence",
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85",
+    "location": "Karen",
+    "year": "2025",
+    "style": "Cove lighting",
+    "caption": "A layered ceiling that softens the evening light."
+  },
+  {
+    "title": "Runda Family Home",
+    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
+    "location": "Runda",
+    "year": "2025",
+    "style": "Modern minimal",
+    "caption": "Quiet geometry with a precise shadow gap."
+  },
+  {
+    "title": "Westlands Office",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85",
+    "location": "Westlands",
+    "year": "2024",
+    "style": "Recessed lighting",
+    "caption": "A focused workspace shaped around clean lines."
+  },
+  {
+    "title": "Kilimani Apartment",
+    "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=85",
+    "location": "Kilimani",
+    "year": "2024",
+    "style": "Feature ceiling",
+    "caption": "A sculptural centrepiece for an open-plan living room."
+  },
+  {
+    "title": "Lavington Residence",
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+    "location": "Lavington",
+    "year": "2023",
+    "style": "Cornices & mouldings",
+    "caption": "Classical detail finished with a contemporary restraint."
+  },
+  {
+    "title": "Muthaiga Villa",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85",
+    "location": "Muthaiga",
+    "year": "2023",
+    "style": "Arches & reveals",
+    "caption": "Curved transitions that connect the home room by room."
+  },
+  {
+    "title": "Kileleshwa Townhouse",
+    "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85",
+    "location": "Kileleshwa",
+    "year": "2022",
+    "style": "Layered lighting",
+    "caption": "A warm ceiling composition for everyday family life."
+  }
+]

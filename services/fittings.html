@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Custom fittings, fixtures and smart storage solutions by Waithaka Interiors for homes, offices, retail spaces and storerooms." />
+  <title>Fittings &amp; Fixtures | Waithaka Interiors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="service.css" />
+  <style>
+    .service-page .container { width: min(1240px, calc(100% - 72px)); margin-right: auto; margin-left: auto; }
+    .service-hub { padding: clamp(5rem, 10vw, 9rem) 0; }
+    .hub-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+    .hub-card { padding: clamp(1.5rem, 4vw, 3rem); background: var(--bg-card, var(--card)); border: 1px solid var(--divider, var(--line)); border-radius: 8px; }
+    .hub-card--commercial { background: linear-gradient(135deg, var(--bg-card, var(--card)), rgba(139, 94, 60, .14)); }
+    .hub-card h3 { margin: 0 0 1.5rem; color: var(--gold-light, var(--gold)); font: 500 clamp(1.7rem, 3vw, 2.5rem) / .95 var(--font-serif, 'Cormorant Garamond', serif); }
+    .hub-card > p { max-width: 46ch; margin: 0 0 1.75rem; color: var(--text-muted, var(--muted)); font: 300 .95rem / 1.7 var(--font-sans, 'Jost', sans-serif); }
+    .hub-list { display: grid; gap: 1rem; margin: 0; padding: 0; list-style: none; }
+    .hub-list li { padding-top: 1rem; border-top: 1px solid var(--divider, var(--line)); }
+    .hub-list strong { display: block; margin-bottom: .35rem; color: var(--text, #f5f2ec); font: 500 1.25rem / 1 var(--font-serif, 'Cormorant Garamond', serif); }
+    .hub-list span { color: var(--text-muted, var(--muted)); font: 300 .85rem / 1.6 var(--font-sans, 'Jost', sans-serif); }
+    .fittings-advantage .style-card__image { aspect-ratio: 5 / 3; }
+    @media (max-width: 767px) { .service-page .container { width: calc(100% - 40px); } .hub-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body class="service-page">
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="../index.html#home" aria-label="Waithaka Interiors home"><svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><path d="M2 5h30L17 29 2 5Z"/><path d="M9 5h16L17 18 9 5Z"/><path d="M17 18v11"/></svg><span class="brand-copy"><strong>WAITHAKA</strong><small>INTERIORS</small></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links">
+        <a class="nav-whatsapp" href="https://wa.me/2547XXXXXXXX" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.7 7.1L4 20l1.4-4.1A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.5 1 1.3 1.7 2.3 2.2l.6-.5c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.3.6-.2.8-.7 1.3-1.5 1.4-2 .1-4.7-2.1-5.7-3.5-.8-1.2-1.2-2.8-.9-3.5Z"/></svg></a>
+        <a href="../index.html#home">Home</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="../index.html#contact">Contact</a><a class="nav-quote" href="../index.html#contact">Request Quote</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="service-hero" style="--service-hero-image: url('https://images.unsplash.com/photo-1556912173-46c336c7fd55?auto=format&fit=crop&w=2200&q=88');">
+      <div class="container">
+        <p class="eyebrow">Made to fit the way you work</p>
+        <h1>Custom <em>Fittings, Fixtures &amp; Smart Storage Solutions</em></h1>
+        <div class="gold-divider" aria-hidden="true"><span></span><i></i><span></span></div>
+        <p class="lede">Maximize your space with commercial-grade durability and premium residential aesthetics. From custom kitchen transformations to heavy-duty business storerooms, we fit layouts built to last.</p>
+        <div class="btn-row"><a class="btn btn--gold" href="https://wa.me/2547XXXXXXXX" target="_blank" rel="noopener">Book a Free On-Site Consultation <span aria-hidden="true">→</span></a></div>
+      </div>
+    </section>
+
+    <section class="service-hub" id="services">
+      <div class="container">
+        <div class="section-title"><span></span><h2>Choose Your Space</h2><i aria-hidden="true"></i><span></span></div>
+        <div class="hub-grid">
+          <article class="hub-card"><p class="eyebrow">For homeowners</p><h3>Residential Fittings</h3><p>Elegant, space-maximizing systems that make daily routines feel more effortless and beautifully considered.</p><ul class="hub-list"><li><strong>Smart Kitchen Systems</strong><span>Modular cabinetry, soft-close hardware, pull-out organizers and water-resistant under-sink setups.</span></li><li><strong>Bedroom &amp; Wardrobe Architecture</strong><span>Walk-in closets, sliding floor-to-ceiling wardrobe fittings and integrated shelving.</span></li></ul></article>
+          <article class="hub-card hub-card--commercial"><p class="eyebrow">For businesses</p><h3>Commercial &amp; Business Storage</h3><p>Rugged, high-density and organized storage systems for inventory, retail, hospitality and offices.</p><ul class="hub-list"><li><strong>High-Density Warehousing &amp; Storerooms</strong><span>Heavy-duty modular shelving, bulk racking and secure inventory cages.</span></li><li><strong>Retail Displays &amp; Office Storage</strong><span>Slatwalls, cash wraps, filing networks and hidden utility enclosures.</span></li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-styles section fittings-advantage" id="advantage">
+      <div class="container">
+        <div class="section-title"><span></span><h2>Material &amp; Craftsmanship Advantage</h2><i aria-hidden="true"></i><span></span></div>
+        <div class="styles-grid">
+          <article class="style-card"><div class="style-card__image"><img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=85" alt="Premium kitchen cabinetry with durable composite surfaces" loading="lazy" /></div><h3>Heavy-Duty PVC &amp; Engineering Composites</h3><p>100% waterproof and termite-proof for high-moisture kitchens, utility rooms and storerooms.</p></article>
+          <article class="style-card"><div class="style-card__image"><img src="https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=900&q=85" alt="Close-up of high quality cabinet hardware and drawer fittings" loading="lazy" /></div><h3>Commercial-Grade Structural Hardware</h3><p>Smooth soft-close hydraulic hinges and full-extension ball-bearing drawer tracks built for repeat use.</p></article>
+          <article class="style-card"><div class="style-card__image"><img src="https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=900&q=85" alt="Precisely aligned built-in wardrobe and storage installation" loading="lazy" /></div><h3>Laser-Level Precision Fitting</h3><p>Perfectly square frameworks with zero-sag installations under heavy weight capacity.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-projects section" id="projects">
+      <div class="container"><div class="section-title"><span></span><h2>Recent Fittings Projects</h2><i aria-hidden="true"></i><span></span></div><p class="section-sub">From refined residential joinery to high-density commercial storage, explore work made for the way spaces are used.</p><p class="projects-loading" id="projectsLoading">Loading recent projects...</p><div class="projects-grid" id="projectsGrid" aria-live="polite"></div><div class="btn-row"><button class="btn btn--ghost" id="loadMoreBtn" type="button" hidden>Load More</button></div></div>
+    </section>
+
+    <section class="service-process section"><div class="container"><div class="section-title"><span></span><h2>Our 3-Step Process</h2><i aria-hidden="true"></i><span></span></div><ol class="process-grid"><li><span class="step-num">01</span><h3>Space Audit &amp; Layout Blueprinting</h3><p>We measure your space, understand the workflow and map a layout that uses every useful centimetre.</p></li><li><span class="step-num">02</span><h3>Custom Fabrication &amp; Assembly Matching</h3><p>Materials, hardware and finishes are matched to your aesthetic, usage and required load capacity.</p></li><li><span class="step-num">03</span><h3>On-Site Precision Anchoring &amp; Weight Testing</h3><p>Our team installs, anchors and tests every system so it performs beautifully from day one.</p></li></ol></div></section>
+
+    <section class="service-cta section"><div class="container"><p class="eyebrow">A better use of every room</p><h2>Ready to fit your space with <em>intention?</em></h2><p>Bring us your kitchen, wardrobe, storeroom or commercial brief and we will turn it into a system that works hard and looks refined.</p><div class="btn-row"><a class="btn btn--gold" href="https://wa.me/2547XXXXXXXX" target="_blank" rel="noopener">WhatsApp Us <span aria-hidden="true">→</span></a><a class="btn btn--ghost" href="../index.html#contact">Request Quote <span aria-hidden="true">→</span></a></div></div></section>
+  </main>
+
+  <footer class="site-footer" id="footer"><div class="footer-grid"><div class="footer-brand"><a class="brand footer-brand-link" href="../index.html#home" aria-label="Waithaka Interiors home"><svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><path d="M2 5h30L17 29 2 5Z"/><path d="M9 5h16L17 18 9 5Z"/><path d="M17 18v11"/></svg><span class="brand-copy"><strong>WAITHAKA</strong><small>INTERIORS</small></span></a><p>Crafted interiors, timeless elegance.</p><span>Nairobi, Kenya</span></div><div class="footer-column"><h3>Explore</h3><a href="../index.html#home">Home</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a></div><div class="footer-column"><h3>Services</h3><a href="gypsum.html">Gypsum &amp; Ceiling Design</a><a href="wainscotting.html">Wainscotting &amp; Wall Panelling</a><a href="fittings.html">Fittings &amp; Fixtures</a><a href="full-interior-design.html">Full Interior Design</a></div><div class="footer-column footer-connect"><h3>Connect</h3><a class="social-link whatsapp-link" href="https://wa.me/2547XXXXXXXX" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.7 7.1L4 20l1.4-4.1A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.5 1 1.3 1.7 2.3 2.2l.6-.5c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.3.6-.2.8-.7 1.3-1.5 1.4-2 .1-4.7-2.1-5.7-3.5-.8-1.2-1.2-2.8-.9-3.5Z"/></svg><span>+254 7XX XXX XXX</span></a><a class="social-link" href="https://instagram.com/waithaka.interiors" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.7" r=".7"/></svg><span>@waithaka.interiors</span></a><a class="social-link" href="https://tiktok.com/@waithaka.interiors" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4v10.2a3.8 3.8 0 1 1-3-3.7"/><path d="M14 4c.5 2.2 1.8 3.5 4 4"/></svg><span>@waithaka.interiors</span></a><a class="social-link" href="https://facebook.com/waithakainteriors" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><path d="M13.5 20v-7h2.4l.4-2.7h-2.8V8.6c0-.8.2-1.4 1.4-1.4h1.5V4.8c-.3 0-1.1-.1-2.1-.1-2.1 0-3.5 1.3-3.5 3.6v2h-2v2.7h2v7"/></svg><span>/waithakainteriors</span></a></div></div><div class="footer-bottom"><span>© 2025 Waithaka Interiors. All rights reserved.</span><div><a href="#footer">Privacy</a><i>•</i><a href="#footer">Terms</a></div></div></footer>
+  <a class="whatsapp-bubble" href="https://wa.me/2547XXXXXXXX" target="_blank" rel="noopener" aria-label="Chat with Waithaka Interiors on WhatsApp">WhatsApp</a>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project image viewer" aria-hidden="true"><button class="lightbox__close" id="lightboxClose" type="button" aria-label="Close image viewer">×</button><button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" type="button" aria-label="Previous project">←</button><figure class="lightbox__figure"><img class="lightbox__img" id="lightboxImage" alt="" /><figcaption class="lightbox__caption" id="lightboxCaption"></figcaption></figure><button class="lightbox__nav lightbox__nav--next" id="lightboxNext" type="button" aria-label="Next project">→</button></div>
+
+  <!-- Service-page classes not yet in the original style.css are provided by service.css. -->
+  <script>
+    const header = document.querySelector('.site-header');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    const projectsGrid = document.querySelector('#projectsGrid');
+    const projectsLoading = document.querySelector('#projectsLoading');
+    const loadMoreButton = document.querySelector('#loadMoreBtn');
+    const lightbox = document.querySelector('#lightbox');
+    const lightboxImage = document.querySelector('#lightboxImage');
+    const lightboxCaption = document.querySelector('#lightboxCaption');
+    const pageSize = 6;
+    let projects = [];
+    let visibleCount = 0;
+    let activeProject = 0;
+    const updateHeader = () => header.classList.toggle('scrolled', window.scrollY > 24);
+    window.addEventListener('scroll', updateHeader, { passive: true });
+    updateHeader();
+    menuToggle.addEventListener('click', () => { const open = navLinks.classList.toggle('open'); menuToggle.classList.toggle('active', open); menuToggle.setAttribute('aria-expanded', String(open)); menuToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu'); });
+    document.querySelectorAll('.nav-links a').forEach((link) => link.addEventListener('click', () => { navLinks.classList.remove('open'); menuToggle.classList.remove('active'); menuToggle.setAttribute('aria-expanded', 'false'); }));
+    const openLightbox = (index) => { activeProject = index; const project = projects[activeProject]; lightboxImage.src = project.image; lightboxImage.alt = project.title; lightboxCaption.textContent = `${project.title} — ${project.location} · ${project.year} · ${project.style}`; lightbox.classList.add('is-open'); lightbox.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; document.querySelector('#lightboxClose').focus(); };
+    const closeLightbox = () => { lightbox.classList.remove('is-open'); lightbox.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; };
+    const renderProjects = () => { projects.slice(visibleCount, visibleCount + pageSize).forEach((project, index) => { const projectIndex = visibleCount + index; const card = document.createElement('article'); card.className = 'project-card'; card.tabIndex = 0; card.setAttribute('role', 'button'); card.setAttribute('aria-label', `View ${project.title}`); card.innerHTML = `<div class="project-card__media"><img src="${project.image}" alt="${project.title}" loading="lazy"><h3>${project.title}</h3></div><div class="project-card__meta"><span>${project.location} · ${project.year} · ${project.style}</span><span class="caption">${project.caption}</span></div>`; card.addEventListener('click', () => openLightbox(projectIndex)); card.addEventListener('keydown', (event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); openLightbox(projectIndex); } }); projectsGrid.append(card); }); visibleCount += Math.min(pageSize, projects.length - visibleCount); loadMoreButton.hidden = visibleCount >= projects.length; };
+    const moveLightbox = (direction) => openLightbox((activeProject + direction + projects.length) % projects.length);
+    document.querySelector('#lightboxClose').addEventListener('click', closeLightbox); document.querySelector('#lightboxPrev').addEventListener('click', () => moveLightbox(-1)); document.querySelector('#lightboxNext').addEventListener('click', () => moveLightbox(1)); lightbox.addEventListener('click', (event) => { if (event.target === lightbox) closeLightbox(); }); document.addEventListener('keydown', (event) => { if (!lightbox.classList.contains('is-open')) return; if (event.key === 'Escape') closeLightbox(); if (event.key === 'ArrowLeft') moveLightbox(-1); if (event.key === 'ArrowRight') moveLightbox(1); }); loadMoreButton.addEventListener('click', renderProjects);
+    fetch('fittings-projects.json').then((response) => { if (!response.ok) throw new Error('Project data unavailable'); return response.json(); }).then((data) => { projects = data; projectsLoading.hidden = true; renderProjects(); }).catch(() => { projectsLoading.textContent = 'Project gallery unavailable. Please try again shortly.'; });
+  </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Karen Residence",
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85",
+    "location": "Karen",
+    "year": "2025",
+    "style": "Full home finishing",
+    "caption": "A warm, layered home shaped around long family evenings."
+  },
+  {
+    "title": "Westlands Office",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85",
+    "location": "Westlands",
+    "year": "2025",
+    "style": "Commercial interiors",
+    "caption": "A focused workplace balancing hospitality, flow and function."
+  },
+  {
+    "title": "Kilimani Apartment",
+    "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=85",
+    "location": "Kilimani",
+    "year": "2024",
+    "style": "Contemporary styling",
+    "caption": "A complete apartment palette with quiet architectural detail."
+  },
+  {
+    "title": "Runda Family Home",
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+    "location": "Runda",
+    "year": "2024",
+    "style": "Residential design",
+    "caption": "Connected rooms, natural textures and storage that disappears."
+  },
+  {
+    "title": "Lavington Boutique",
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=85",
+    "location": "Lavington",
+    "year": "2023",
+    "style": "Retail fit-out",
+    "caption": "A considered customer journey carried through every surface."
+  },
+  {
+    "title": "Muthaiga Villa",
+    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
+    "location": "Muthaiga",
+    "year": "2023",
+    "style": "Turnkey interiors",
+    "caption": "A fully managed transformation from first drawing to final styling."
+  },
+  {
+    "title": "Kileleshwa Townhouse",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85",
+    "location": "Kileleshwa",
+    "year": "2022",
+    "style": "End-to-end design",
+    "caption": "A polished, practical interior with a distinctly personal finish."
+  }
+]

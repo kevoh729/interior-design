@@ -1,0 +1,628 @@
+/*
+  service.css
+  Purpose: section-level styles for all Waithaka Interiors service pages.
+  Load order: style.css -> service.css
+
+  INHERITED FROM style.css - DO NOT REDEFINE
+  Tokens assumed by the service pages:
+    --bg-primary, --bg-secondary, --bg-card
+    --gold, --gold-light, --gold-deep, --earth
+    --text, --text-muted, --text-dim, --divider
+    --font-serif, --font-sans
+  Shared components assumed:
+    .nav, .nav__logo, .nav__links, .nav__cta
+    .btn, .btn--gold, .btn--ghost, .container
+    .eyebrow, .gold-divider, .footer, .footer__*
+    .whatsapp-bubble
+
+  Note: the current main stylesheet uses --bg, --surface, --card, --text,
+  --muted, --dim, --line, and font family literals. Reconcile those names
+  with the contract above in style.css when the service pages are integrated.
+*/
+
+/* 1. Service page */
+.service-page {
+  min-height: 100%;
+  padding-top: clamp(5rem, 8vw, 7rem);
+  background:
+    radial-gradient(ellipse 70% 30% at 50% 0%, rgba(139, 94, 60, 0.08), transparent 70%),
+    var(--bg-primary, var(--bg));
+}
+
+/* 2. Service hero */
+.service-hero {
+  position: relative;
+  isolation: isolate;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--bg-primary, var(--bg));
+  background-image: var(--service-hero-image, none);
+  background-position: center;
+  background-size: cover;
+}
+
+.service-hero::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  content: "";
+  background:
+    linear-gradient(90deg, rgba(10, 10, 10, 0.84) 0%, rgba(10, 10, 10, 0.58) 48%, rgba(10, 10, 10, 0.28) 100%),
+    linear-gradient(0deg, rgba(10, 10, 10, 0.72) 0%, rgba(10, 10, 10, 0.12) 62%, rgba(10, 10, 10, 0.3) 100%);
+}
+
+.service-hero .container {
+  width: 100%;
+  padding-top: clamp(3rem, 8vw, 7rem);
+  padding-bottom: clamp(3rem, 8vw, 7rem);
+}
+
+.service-hero h1 {
+  max-width: 12ch;
+  margin: 0;
+  color: var(--text, #f5f2ec);
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 500;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+}
+
+.service-hero h1 em,
+.service-intro h2 em,
+.service-cta h2 em {
+  color: var(--gold-light, var(--gold));
+  font-style: italic;
+  font-weight: 400;
+}
+
+.service-hero .gold-divider {
+  width: min(100%, 17rem);
+  margin: clamp(1.5rem, 3vw, 2.5rem) 0;
+}
+
+.service-hero .lede {
+  max-width: 55ch;
+  margin: 0;
+  color: var(--text-muted, var(--muted));
+  font-family: var(--font-sans, 'Jost', sans-serif);
+  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+  line-height: 1.6;
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.service-hero .btn-row {
+  margin-top: clamp(1.75rem, 4vw, 3rem);
+}
+
+/* 3. Service intro */
+.service-intro {
+  padding: clamp(5rem, 10vw, 9rem) 0;
+}
+
+.service-intro .two-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(2rem, 6vw, 4rem);
+  align-items: center;
+}
+
+.two-col__text h2 {
+  margin: 0 0 clamp(1.25rem, 3vw, 2rem);
+  color: var(--text, #f5f2ec);
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.two-col__text p {
+  margin: 0 0 1.25rem;
+  color: var(--text-muted, var(--muted));
+  font-family: var(--font-sans, 'Jost', sans-serif);
+  line-height: 1.7;
+}
+
+.two-col__text p:last-child {
+  margin-bottom: 0;
+}
+
+.two-col__image {
+  position: relative;
+}
+
+.two-col__image img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--divider, var(--line));
+  border-radius: 4px;
+  box-shadow: 0.75rem 0.75rem 0 rgba(201, 169, 97, 0.08);
+}
+
+/* 4. Service styles */
+.service-styles {
+  padding: clamp(5rem, 10vw, 9rem) 0;
+  background: var(--bg-secondary, var(--surface));
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(0.75rem, 2vw, 1.5rem);
+  margin: 0 auto clamp(2.5rem, 5vw, 4rem);
+  text-align: center;
+}
+
+.section-title h2 {
+  margin: 0;
+  color: var(--text, #f5f2ec);
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.section-title span {
+  display: block;
+  width: clamp(2.5rem, 6vw, 3.75rem);
+  height: 1px;
+  background: var(--divider, var(--line));
+}
+
+.section-title i {
+  display: block;
+  width: 6px;
+  height: 6px;
+  flex: 0 0 6px;
+  background: var(--gold, #c9a961);
+  transform: rotate(45deg);
+}
+
+.styles-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.style-card {
+  overflow: hidden;
+  background: var(--bg-card, var(--card));
+  border: 1px solid var(--divider, var(--line));
+  border-radius: 8px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.style-card__image {
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.style-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.style-card h3 {
+  margin: 1.25rem 1.25rem 0.5rem;
+  color: var(--text, #f5f2ec);
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-size: clamp(1.1rem, 1.5vw, 1.25rem);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.style-card p {
+  margin: 0;
+  padding: 0 1.25rem 1.35rem;
+  color: var(--text-muted, var(--muted));
+  font-family: var(--font-sans, 'Jost', sans-serif);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.style-card:hover,
+.style-card:focus-within {
+  border-color: rgba(201, 169, 97, 0.4);
+  transform: translateY(-4px);
+}
+
+.style-card:hover img,
+.style-card:focus-within img {
+  transform: scale(1.05);
+}
+
+.style-card:hover h3,
+.style-card:focus-within h3 {
+  color: var(--gold-light, var(--gold));
+}
+
+/* 5. Service projects and lightbox */
+.service-projects {
+  padding: clamp(5rem, 10vw, 9rem) 0;
+}
+
+.section-sub {
+  max-width: 55ch;
+  margin: calc(clamp(2.5rem, 5vw, 4rem) * -0.5) auto 3rem;
+  color: var(--text-muted, var(--muted));
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  overflow: hidden;
+  background: var(--bg-card, var(--card));
+  border: 1px solid var(--divider, var(--line));
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-card__media {
+  position: relative;
+  overflow: hidden;
+  height: clamp(17rem, 27vw, 20rem);
+}
+
+.project-card__media::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 58%;
+  content: "";
+  background: linear-gradient(transparent, rgba(10, 10, 10, 0.88));
+  pointer-events: none;
+}
+
+.project-card__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-card__media h3 {
+  position: absolute;
+  z-index: 1;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  margin: 0;
+  color: var(--text, #f5f2ec);
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  font-weight: 500;
+}
+
+.project-card__media h3::after {
+  display: block;
+  width: 0;
+  height: 1px;
+  margin-top: 0.4rem;
+  content: "";
+  background: var(--gold, #c9a961);
+  transition: width 0.4s ease;
+}
+
+.project-card__meta {
+  padding: 1rem 1.25rem 1.25rem;
+  color: var(--text-muted, var(--muted));
+  font-family: var(--font-sans, 'Jost', sans-serif);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.project-card__meta .caption {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--text-dim, var(--dim));
+}
+
+.project-card:hover,
+.project-card:focus-within {
+  border-color: rgba(201, 169, 97, 0.4);
+  transform: translateY(-4px);
+}
+
+.project-card:hover .project-card__media img,
+.project-card:focus-within .project-card__media img {
+  transform: scale(1.05);
+}
+
+.project-card:hover .project-card__media h3::after,
+.project-card:focus-within .project-card__media h3::after {
+  width: 100%;
+}
+
+.projects-loading {
+  margin: 2rem 0 0;
+  color: var(--text-muted, var(--muted));
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.service-projects > .btn-row {
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.lightbox {
+  position: fixed;
+  z-index: 999;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 5rem;
+  background: rgba(10, 10, 10, 0.96);
+}
+
+.lightbox.is-open {
+  display: flex;
+}
+
+.lightbox__figure {
+  display: flex;
+  max-width: 90vw;
+  max-height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+
+.lightbox__img {
+  display: block;
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border: 1px solid var(--divider, var(--line));
+  box-shadow: 0 0 2rem rgba(201, 169, 97, 0.12);
+}
+
+.lightbox__caption {
+  color: var(--text-muted, var(--muted));
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-style: italic;
+  text-align: center;
+}
+
+.lightbox__close,
+.lightbox__nav {
+  position: absolute;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  color: var(--gold, #c9a961);
+  background: transparent;
+  border: 1px solid var(--gold, #c9a961);
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.lightbox__close {
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 32px;
+  height: 32px;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.lightbox__nav {
+  top: 50%;
+  width: 2.75rem;
+  height: 2.75rem;
+  font-size: 1.5rem;
+  transform: translateY(-50%);
+}
+
+.lightbox__nav--prev {
+  left: 1.5rem;
+}
+
+.lightbox__nav--next {
+  right: 1.5rem;
+}
+
+.lightbox__close:hover,
+.lightbox__nav:hover {
+  color: var(--bg-primary, var(--bg));
+  background: var(--gold, #c9a961);
+}
+
+.lightbox__close:hover {
+  transform: scale(1.08);
+}
+
+/* 6. Service process */
+.service-process {
+  padding: clamp(5rem, 10vw, 9rem) 0;
+  background: var(--bg-secondary, var(--surface));
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: none;
+}
+
+.process-grid > li {
+  position: relative;
+  padding-left: 0;
+}
+
+.step-num {
+  display: block;
+  color: rgba(201, 169, 97, 0.3);
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-size: clamp(2.5rem, 5vw, 3rem);
+  line-height: 1;
+}
+
+.process-grid h3 {
+  margin: 0.5rem 0;
+  color: var(--text, #f5f2ec);
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-size: clamp(1.1rem, 1.8vw, 1.25rem);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.process-grid li:hover h3,
+.process-grid li:focus-within h3 {
+  color: var(--gold-light, var(--gold));
+}
+
+.process-grid p {
+  margin: 0;
+  color: var(--text-muted, var(--muted));
+  font-family: var(--font-sans, 'Jost', sans-serif);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+/* 7. Service CTA */
+.service-cta {
+  padding: clamp(5rem, 10vw, 8rem) 0;
+  background: radial-gradient(ellipse at center, rgba(201, 169, 97, 0.08), transparent 60%);
+  text-align: center;
+}
+
+.service-cta h2 {
+  margin: 0;
+  color: var(--text, #f5f2ec);
+  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.service-cta p {
+  max-width: 50ch;
+  margin: 1.25rem auto 0;
+  color: var(--text-muted, var(--muted));
+  font-family: var(--font-sans, 'Jost', sans-serif);
+  line-height: 1.7;
+}
+
+.service-cta .btn-row {
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Accessibility and motion */
+.service-page :is(a, button, [tabindex]):focus-visible {
+  outline: 2px solid var(--gold, #c9a961);
+  outline-offset: 3px;
+}
+
+@media (max-width: 1024px) {
+  .styles-grid,
+  .projects-grid,
+  .process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .service-hero {
+    min-height: 70vh;
+  }
+
+  .service-intro .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  /* The image comes first on small screens so the service is visible before the copy. */
+  .two-col__image {
+    order: -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .section-title {
+    gap: 0.75rem;
+  }
+
+  .styles-grid,
+  .projects-grid,
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lightbox {
+    padding: 4rem 1rem 2rem;
+  }
+
+  .lightbox__nav--prev {
+    left: 0.75rem;
+  }
+
+  .lightbox__nav--next {
+    right: 0.75rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .service-hero h1 {
+    font-size: 2.35rem;
+  }
+
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .service-page *,
+  .service-page *::before,
+  .service-page *::after {
+    scroll-behavior: auto;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .style-card:hover,
+  .project-card:hover,
+  .social-link:hover,
+  .lightbox__close:hover {
+    transform: none;
+  }
+
+  .style-card:hover img,
+  .project-card:hover .project-card__media img {
+    transform: none;
+  }
+}
