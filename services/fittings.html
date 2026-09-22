@@ -39,7 +39,7 @@
   </header>
 
   <main>
-    <section class="service-hero" style="--service-hero-image: url('https://images.unsplash.com/photo-1556912173-46c336c7fd55?auto=format&fit=crop&w=2200&q=88');">
+    <section class="service-hero" style="--service-hero-image: url('https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&amp;fit=crop&amp;w=2400&amp;q=90');">
       <div class="container">
         <p class="eyebrow">Made to fit the way you work</p>
         <h1>Custom <em>Fittings, Fixtures &amp; Smart Storage Solutions</em></h1>
@@ -63,9 +63,9 @@
       <div class="container">
         <div class="section-title"><span></span><h2>Material &amp; Craftsmanship Advantage</h2><i aria-hidden="true"></i><span></span></div>
         <div class="styles-grid">
-          <article class="style-card"><div class="style-card__image"><img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=85" alt="Premium kitchen cabinetry with durable composite surfaces" loading="lazy" /></div><h3>Heavy-Duty PVC &amp; Engineering Composites</h3><p>100% waterproof and termite-proof for high-moisture kitchens, utility rooms and storerooms.</p></article>
-          <article class="style-card"><div class="style-card__image"><img src="https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=900&q=85" alt="Close-up of high quality cabinet hardware and drawer fittings" loading="lazy" /></div><h3>Commercial-Grade Structural Hardware</h3><p>Smooth soft-close hydraulic hinges and full-extension ball-bearing drawer tracks built for repeat use.</p></article>
-          <article class="style-card"><div class="style-card__image"><img src="https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=900&q=85" alt="Precisely aligned built-in wardrobe and storage installation" loading="lazy" /></div><h3>Laser-Level Precision Fitting</h3><p>Perfectly square frameworks with zero-sag installations under heavy weight capacity.</p></article>
+          <article class="style-card"><div class="style-card__image"><img src="../fittings/fittings1.jpeg" alt="Premium kitchen cabinetry with durable composite surfaces" loading="lazy" /></div><h3>Heavy-Duty PVC &amp; Engineering Composites</h3><p>100% waterproof and termite-proof for high-moisture kitchens, utility rooms and storerooms.</p></article>
+          <article class="style-card"><div class="style-card__image"><img src="../fittings/fittings2.jpeg" alt="Close-up of high quality cabinet hardware and drawer fittings" loading="lazy" /></div><h3>Commercial-Grade Structural Hardware</h3><p>Smooth soft-close hydraulic hinges and full-extension ball-bearing drawer tracks built for repeat use.</p></article>
+          <article class="style-card"><div class="style-card__image"><img src="../fittings/fittings3.jpeg" alt="Precisely aligned built-in wardrobe and storage installation" loading="lazy" /></div><h3>Laser-Level Precision Fitting</h3><p>Perfectly square frameworks with zero-sag installations under heavy weight capacity.</p></article>
         </div>
       </div>
     </section>
@@ -111,5 +111,6 @@
     document.querySelector('#lightboxClose').addEventListener('click', closeLightbox); document.querySelector('#lightboxPrev').addEventListener('click', () => moveLightbox(-1)); document.querySelector('#lightboxNext').addEventListener('click', () => moveLightbox(1)); lightbox.addEventListener('click', (event) => { if (event.target === lightbox) closeLightbox(); }); document.addEventListener('keydown', (event) => { if (!lightbox.classList.contains('is-open')) return; if (event.key === 'Escape') closeLightbox(); if (event.key === 'ArrowLeft') moveLightbox(-1); if (event.key === 'ArrowRight') moveLightbox(1); }); loadMoreButton.addEventListener('click', renderProjects);
     fetch('fittings-projects.json').then((response) => { if (!response.ok) throw new Error('Project data unavailable'); return response.json(); }).then((data) => { projects = data; projectsLoading.hidden = true; renderProjects(); }).catch(() => { projectsLoading.textContent = 'Project gallery unavailable. Please try again shortly.'; });
   </script>
+  <script src="contact-consistency.js"></script>
 </body>
 </html>

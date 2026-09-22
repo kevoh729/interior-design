@@ -1,7 +1,7 @@
 [
   {
-    "title": "Karen Family Kitchen",
-    "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1400&q=85",
+    "title": "Karen Family Wardrobe",
+    "image": "../fittings/fittings1.jpeg",
     "location": "Karen",
     "year": "2025",
     "style": "Smart kitchen system",
@@ -9,15 +9,15 @@
   },
   {
     "title": "Runda Walk-In Wardrobe",
-    "image": "https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=1400&q=85",
+    "image": "../fittings/fittings2.jpeg",
     "location": "Runda",
     "year": "2025",
     "style": "Integrated wardrobe",
     "caption": "Floor-to-ceiling organization with tailored shelving and clean reveals."
   },
   {
-    "title": "Westlands Inventory Room",
-    "image": "https://images.unsplash.com/photo-1586528116493-da8b7b0e5f2c?auto=format&fit=crop&w=1400&q=85",
+    "title": "Westlands Kitchen",
+    "image": "../fittings/fittings3.jpeg",
     "location": "Westlands",
     "year": "2024",
     "style": "Heavy-duty shelving",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Kilimani Retail Display",
-    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1400&q=85",
+    "image": "../fittings/fittings4.jpeg",
     "location": "Kilimani",
     "year": "2024",
     "style": "Retail slatwall",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Lavington Home Office",
-    "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1400&q=85",
+    "image": "../fittings/fittings5.jpeg",
     "location": "Lavington",
     "year": "2023",
     "style": "Built-in storage",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Muthaiga Utility Kitchen",
-    "image": "https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=1400&q=85",
+    "image": "../fittings/fittings6.jpeg",
     "location": "Muthaiga",
     "year": "2023",
     "style": "Water-resistant cabinetry",
@@ -49,7 +49,7 @@
   },
   {
     "title": "Kileleshwa Office Storage",
-    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85",
+    "image": "../fittings/fittings7.jpeg",
     "location": "Kileleshwa",
     "year": "2022",
     "style": "Modular office system",

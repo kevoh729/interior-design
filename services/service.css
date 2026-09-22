@@ -39,21 +39,34 @@
   overflow: hidden;
   background-color: var(--bg-primary, var(--bg));
   background-image: var(--service-hero-image, none);
-  background-position: center;
+  background-position: center 42%;
   background-size: cover;
 }
 
 .service-hero::before {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   inset: 0;
   content: "";
   background:
-    linear-gradient(90deg, rgba(10, 10, 10, 0.84) 0%, rgba(10, 10, 10, 0.58) 48%, rgba(10, 10, 10, 0.28) 100%),
-    linear-gradient(0deg, rgba(10, 10, 10, 0.72) 0%, rgba(10, 10, 10, 0.12) 62%, rgba(10, 10, 10, 0.3) 100%);
+    linear-gradient(90deg, rgba(8, 8, 8, 0.78) 0%, rgba(8, 8, 8, 0.42) 46%, rgba(8, 8, 8, 0.16) 100%),
+    linear-gradient(0deg, rgba(8, 8, 8, 0.58) 0%, rgba(8, 8, 8, 0.04) 58%, rgba(8, 8, 8, 0.24) 100%);
+  pointer-events: none;
+}
+
+.service-hero::after {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  content: "";
+  background: linear-gradient(115deg, rgba(255, 255, 255, 0.08), transparent 38%, rgba(0, 0, 0, 0.12) 100%);
+  mix-blend-mode: soft-light;
+  pointer-events: none;
 }
 
 .service-hero .container {
+  position: relative;
+  z-index: 1;
   width: 100%;
   padding-top: clamp(3rem, 8vw, 7rem);
   padding-bottom: clamp(3rem, 8vw, 7rem);

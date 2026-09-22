@@ -1,21 +1,21 @@
 [
   {
     "title": "Karen Residence",
-    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+    "image": "full/full1.jpeg",
     "category": "01 / Private Residence",
     "caption": "Full Home Finishing",
     "link": "#contact"
   },
   {
     "title": "Westlands Office",
-    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85",
+    "image": "full/full2.jpeg",
     "category": "02 / Commercial",
     "caption": "Gypsum & Fittings",
     "link": "#contact"
   },
   {
     "title": "Kilimani Apartment",
-    "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=85",
+    "image": "full/full3.jpeg",
     "category": "03 / Apartment",
     "caption": "Wainscotting & Styling",
     "link": "#contact"

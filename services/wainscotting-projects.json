@@ -1,7 +1,7 @@
 [
   {
     "title": "Karen Residence",
-    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+    "image": "../wainscotting/wain2.jpeg",
     "location": "Karen",
     "year": "2025",
     "style": "Full-height panels",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Westlands Office Lobby",
-    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85",
+    "image": "../wainscotting/wain3.jpeg",
     "location": "Westlands",
     "year": "2025",
     "style": "Commercial-grade panels",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Kilimani Apartment",
-    "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=85",
+    "image": "../wainscotting/wain4.jpeg",
     "location": "Kilimani",
     "year": "2024",
     "style": "Modern minimal",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Runda Dining Room",
-    "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85",
+    "image": "../wainscotting/wain5.jpeg",
     "location": "Runda",
     "year": "2024",
     "style": "Decorative wall panels",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Lavington Boutique",
-    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
+    "image": "../wainscotting/wain6.jpeg",
     "location": "Lavington",
     "year": "2023",
     "style": "Feature wall",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Muthaiga Airbnb",
-    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85",
+    "image": "../wainscotting/wain7.jpeg",
     "location": "Muthaiga",
     "year": "2023",
     "style": "Waterproof panelling",
@@ -49,7 +49,7 @@
   },
   {
     "title": "Kileleshwa Bathroom",
-    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85",
+    "image": "../wainscotting/wain8.jpeg",
     "location": "Kileleshwa",
     "year": "2022",
     "style": "Wet-area finish",
