@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Residential and commercial painting services by Waithaka Interiors for considered colour, durable finishes and polished spaces." />
+  <title>Painting &amp; Finishes | Waithaka Interiors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="service.css" />
+  <style>
+    .service-page .container { width: min(1240px, calc(100% - 72px)); margin-right: auto; margin-left: auto; }
+    .painting-scope { padding: clamp(5rem, 10vw, 9rem) 0; }
+    .painting-scope-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+    .painting-scope-card { padding: clamp(1.5rem, 4vw, 3rem); background: var(--bg-card, var(--card)); border: 1px solid var(--divider, var(--line)); border-radius: 8px; }
+    .painting-scope-card--office { background: linear-gradient(135deg, var(--bg-card, var(--card)), rgba(139, 94, 60, .14)); }
+    .painting-scope-card h3 { margin: 0 0 1.25rem; color: var(--gold-light, var(--gold)); font: 500 clamp(1.8rem, 3vw, 2.8rem) / .95 var(--font-serif, 'Cormorant Garamond', serif); }
+    .painting-scope-card p { margin: 0; color: var(--text-muted, var(--muted)); font: 300 .95rem / 1.7 var(--font-sans, 'Jost', sans-serif); }
+    .painting-scope-card ul { display: grid; gap: .75rem; margin: 1.75rem 0 0; padding: 0; list-style: none; }
+    .painting-scope-card li { padding-top: .75rem; border-top: 1px solid var(--divider, var(--line)); color: var(--text, #f5f2ec); font: 300 .88rem / 1.5 var(--font-sans, 'Jost', sans-serif); }
+    @media (max-width: 767px) { .service-page .container { width: calc(100% - 40px); } .painting-scope-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body class="service-page">
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="../index.html#home" aria-label="Waithaka Interiors home"><svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><path d="M2 5h30L17 29 2 5Z"/><path d="M9 5h16L17 18 9 5Z"/><path d="M17 18v11"/></svg><span class="brand-copy"><strong>WAITHAKA</strong><small>INTERIORS</small></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links"><a class="nav-whatsapp" href="https://wa.me/254795678466" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.7 7.1L4 20l1.4-4.1A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.5 1 1.3 1.7 2.3 2.2l.6-.5c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.3.6-.2.8-.7 1.3-1.5 1.4-2 .1-4.7-2.1-5.7-3.5-.8-1.2-1.2-2.8-.9-3.5Z"/></svg></a><a href="../index.html#home">Home</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="../index.html#contact">Contact</a><a class="nav-quote" href="../index.html#contact">Request Quote</a></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="service-hero" style="--service-hero-image: url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&amp;fit=crop&amp;w=2400&amp;q=90');">
+      <div class="container"><p class="eyebrow">Colour, atmosphere, finish</p><h1>Painting <em>&amp; Finishes</em></h1><div class="gold-divider" aria-hidden="true"><span></span><i></i><span></span></div><p class="lede">Thoughtful colour and disciplined preparation for residential homes, offices, retail spaces and every room that deserves a better finish.</p><div class="btn-row"><a class="btn btn--gold" href="https://wa.me/254795678466" target="_blank" rel="noopener">Plan Your Colour Direction <span aria-hidden="true">→</span></a><a class="btn btn--ghost" href="#projects">See Examples <span aria-hidden="true">↓</span></a></div></div>
+    </section>
+
+    <section class="service-intro section"><div class="container two-col"><div class="two-col__text"><p class="eyebrow">More than a coat of paint</p><h2>Finish that changes how a space <em>feels.</em></h2><p>We help you choose colour, sheen and finish with the whole room in mind: its light, furniture, function and the atmosphere you want people to feel.</p><p>Every project is prepared carefully, applied cleanly and finished with the detail needed for a result that looks good beyond the first day.</p></div><div class="two-col__image"><img src="../paint/p1.jpeg" alt="Finished residential painting example" loading="lazy" /></div></div></section>
+
+    <section class="painting-scope section" id="services"><div class="container"><div class="section-title"><span></span><h2>For Homes &amp; Offices</h2><i aria-hidden="true"></i><span></span></div><div class="painting-scope-grid"><article class="painting-scope-card"><p class="eyebrow">For homes</p><h3>Residential painting</h3><p>Warm, personal finishes for living rooms, bedrooms, kitchens, hallways and complete home refreshes.</p><ul><li>Colour consultation and palette planning</li><li>Feature walls and calm tonal finishes</li><li>Preparation, painting and final touch-ups</li></ul></article><article class="painting-scope-card painting-scope-card--office"><p class="eyebrow">For businesses</p><h3>Commercial painting</h3><p>Polished, durable finishes for offices, retail spaces, hospitality venues and working environments.</p><ul><li>Brand-aligned colour direction</li><li>Low-disruption office refreshes</li><li>Durable finishes for high-traffic spaces</li></ul></article></div></div></section>
+
+    <section class="service-projects section" id="projects"><div class="container"><div class="section-title"><span></span><h2>Painting Projects</h2><i aria-hidden="true"></i><span></span></div><p class="section-sub">Residential and commercial examples showing the range of colour, preparation and finish we bring to a space.</p><p class="projects-loading" id="projectsLoading">Loading painting projects...</p><div class="projects-grid" id="projectsGrid" aria-live="polite"></div><div class="btn-row"><button class="btn btn--ghost" id="loadMoreBtn" type="button" hidden>Load More</button></div></div></section>
+
+    <section class="service-process section"><div class="container"><div class="section-title"><span></span><h2>Our 3-Step Process</h2><i aria-hidden="true"></i><span></span></div><ol class="process-grid"><li><span class="step-num">01</span><h3>Colour Direction</h3><p>We understand the space, the light and the feeling you want before recommending a palette.</p></li><li><span class="step-num">02</span><h3>Prepare &amp; Protect</h3><p>Surfaces are prepared carefully and the surrounding space is protected for a clean, controlled job.</p></li><li><span class="step-num">03</span><h3>Apply &amp; Refine</h3><p>We apply the finish with care, inspect the details and leave the space ready to use.</p></li></ol></div></section>
+
+    <section class="service-cta section"><div class="container"><p class="eyebrow">A better colour story starts here</p><h2>Ready to refresh your <em>space?</em></h2><p>Tell us about your home, office or commercial space and we will help you choose a finish that feels right.</p><div class="btn-row"><a class="btn btn--gold" href="https://wa.me/254795678466" target="_blank" rel="noopener">WhatsApp Us <span aria-hidden="true">→</span></a><a class="btn btn--ghost" href="../index.html#contact">Request Quote <span aria-hidden="true">→</span></a></div></div></section>
+  </main>
+
+  <footer class="site-footer" id="footer"><div class="footer-grid"><div class="footer-brand"><a class="brand footer-brand-link" href="../index.html#home" aria-label="Waithaka Interiors home"><svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><path d="M2 5h30L17 29 2 5Z"/><path d="M9 5h16L17 18 9 5Z"/><path d="M17 18v11"/></svg><span class="brand-copy"><strong>WAITHAKA</strong><small>INTERIORS</small></span></a><p>Crafted interiors, timeless elegance.</p><span>Nairobi, Kenya</span></div><div class="footer-column"><h3>Explore</h3><a href="../index.html#home">Home</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a></div><div class="footer-column"><h3>Services</h3><a href="gypsum.html">Gypsum &amp; Ceiling Design</a><a href="wainscotting.html">Wainscotting &amp; Wall Panelling</a><a href="fittings.html">Fittings &amp; Fixtures</a><a href="full-interior-design.html">Full Interior Design</a><a href="painting.html">Painting &amp; Finishes</a></div><div class="footer-column footer-connect"><h3>Connect</h3></div></div><div class="footer-bottom"><span>© 2026 Waithaka Interiors. All rights reserved.</span><div><a href="#footer">Privacy</a><i>•</i><a href="#footer">Terms</a></div></div></footer>
+
+  <a class="whatsapp-bubble" href="https://wa.me/254795678466" target="_blank" rel="noopener" aria-label="Chat with Waithaka Interiors on WhatsApp">WhatsApp</a>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project image viewer" aria-hidden="true"><button class="lightbox__close" id="lightboxClose" type="button" aria-label="Close image viewer">×</button><button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" type="button" aria-label="Previous project">←</button><figure class="lightbox__figure"><img class="lightbox__img" id="lightboxImage" alt="" /><figcaption class="lightbox__caption" id="lightboxCaption"></figcaption></figure><button class="lightbox__nav lightbox__nav--next" id="lightboxNext" type="button" aria-label="Next project">→</button></div>
+  <script>
+    const header = document.querySelector('.site-header');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    const projectsGrid = document.querySelector('#projectsGrid');
+    const projectsLoading = document.querySelector('#projectsLoading');
+    const loadMoreButton = document.querySelector('#loadMoreBtn');
+    const lightbox = document.querySelector('#lightbox');
+    const lightboxImage = document.querySelector('#lightboxImage');
+    const lightboxCaption = document.querySelector('#lightboxCaption');
+    const pageSize = 6;
+    let projects = [];
+    let visibleCount = 0;
+    let activeProject = 0;
+    const updateHeader = () => header.classList.toggle('scrolled', window.scrollY > 24);
+    window.addEventListener('scroll', updateHeader, { passive: true });
+    updateHeader();
+    menuToggle.addEventListener('click', () => { const open = navLinks.classList.toggle('open'); menuToggle.classList.toggle('active', open); menuToggle.setAttribute('aria-expanded', String(open)); menuToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu'); });
+    document.querySelectorAll('.nav-links a').forEach((link) => link.addEventListener('click', () => { navLinks.classList.remove('open'); menuToggle.classList.remove('active'); menuToggle.setAttribute('aria-expanded', 'false'); }));
+    const openLightbox = (index) => { activeProject = index; const project = projects[activeProject]; lightboxImage.src = project.image; lightboxImage.alt = project.title; lightboxCaption.textContent = `${project.title} - ${project.location} - ${project.year} - ${project.style}`; lightbox.classList.add('is-open'); lightbox.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; document.querySelector('#lightboxClose').focus(); };
+    const closeLightbox = () => { lightbox.classList.remove('is-open'); lightbox.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; };
+    const renderProjects = () => { projects.slice(visibleCount, visibleCount + pageSize).forEach((project, index) => { const projectIndex = visibleCount + index; const card = document.createElement('article'); card.className = 'project-card'; card.tabIndex = 0; card.setAttribute('role', 'button'); card.setAttribute('aria-label', `View ${project.title}`); card.innerHTML = `<div class="project-card__media"><img src="${project.image}" alt="${project.title}" loading="lazy"><h3>${project.title}</h3></div><div class="project-card__meta"><span>${project.location} · ${project.year} · ${project.style}</span><span class="caption">${project.caption}</span></div>`; card.addEventListener('click', () => openLightbox(projectIndex)); card.addEventListener('keydown', (event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); openLightbox(projectIndex); } }); projectsGrid.append(card); }); visibleCount += Math.min(pageSize, projects.length - visibleCount); loadMoreButton.hidden = visibleCount >= projects.length; };
+    const moveLightbox = (direction) => openLightbox((activeProject + direction + projects.length) % projects.length);
+    document.querySelector('#lightboxClose').addEventListener('click', closeLightbox); document.querySelector('#lightboxPrev').addEventListener('click', () => moveLightbox(-1)); document.querySelector('#lightboxNext').addEventListener('click', () => moveLightbox(1)); lightbox.addEventListener('click', (event) => { if (event.target === lightbox) closeLightbox(); }); document.addEventListener('keydown', (event) => { if (!lightbox.classList.contains('is-open')) return; if (event.key === 'Escape') closeLightbox(); if (event.key === 'ArrowLeft') moveLightbox(-1); if (event.key === 'ArrowRight') moveLightbox(1); }); loadMoreButton.addEventListener('click', renderProjects);
+    fetch('painting-projects.json').then((response) => { if (!response.ok) throw new Error('Project data unavailable'); return response.json(); }).then((data) => { projects = data; projectsLoading.hidden = true; renderProjects(); }).catch(() => { projectsLoading.textContent = 'Project gallery unavailable. Please try again shortly.'; });
+  </script>
+  <script src="contact-consistency.js"></script>
+</body>
+</html>

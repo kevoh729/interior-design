@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Nairobi Family Home",
+    "image": "../paint/p1.jpeg",
+    "location": "Nairobi",
+    "year": "2025",
+    "style": "Residential palette",
+    "caption": "A warm, layered colour story designed for everyday family life."
+  },
+  {
+    "title": "Mombasa Living Room",
+    "image": "../paint/p2.jpeg",
+    "location": "Mombasa",
+    "year": "2025",
+    "style": "Feature wall finish",
+    "caption": "A considered feature finish that gives the room a calm focal point."
+  },
+  {
+    "title": "Kisumu Apartment",
+    "image": "../paint/p3.jpeg",
+    "location": "Kisumu",
+    "year": "2024",
+    "style": "Contemporary colour",
+    "caption": "Crisp, contemporary tones shaped around light and daily movement."
+  },
+  {
+    "title": "Nakuru Office",
+    "image": "../paint/p4.jpeg",
+    "location": "Nakuru",
+    "year": "2025",
+    "style": "Office refresh",
+    "caption": "A polished workplace finish that supports focus and first impressions."
+  },
+  {
+    "title": "Garissa Boardroom",
+    "image": "../paint/p5.jpeg",
+    "location": "Garissa",
+    "year": "2024",
+    "style": "Commercial feature finish",
+    "caption": "Durable colour and clean lines for a confident meeting environment."
+  },
+  {
+    "title": "Nyeri Reception",
+    "image": "../paint/p6.jpeg",
+    "location": "Nyeri",
+    "year": "2024",
+    "style": "Brand-led palette",
+    "caption": "A welcoming reception finish aligned with the company identity."
+  },
+  {
+    "title": "Kiambu Studio",
+    "image": "../paint/p7.jpeg",
+    "location": "Kiambu",
+    "year": "2023",
+    "style": "Durable commercial paintwork",
+    "caption": "Hardwearing, easy-care surfaces for a busy working environment."
+  }
+]

@@ -1,56 +1,56 @@
 [
   {
-    "title": "Karen Residence",
+    "title": "Nairobi Residence",
     "image": "../full/full1.jpeg",
-    "location": "Karen",
+    "location": "Nairobi",
     "year": "2025",
     "style": "Full home finishing",
     "caption": "A warm, layered home shaped around long family evenings."
   },
   {
-    "title": "Westlands Office",
+    "title": "Mombasa Office",
     "image": "../full/full2.jpeg",
-    "location": "Westlands",
+    "location": "Mombasa",
     "year": "2025",
     "style": "Commercial interiors",
     "caption": "A focused workplace balancing hospitality, flow and function."
   },
   {
-    "title": "Kilimani Apartment",
+    "title": "Kisumu Apartment",
     "image": "../full/full3.jpeg",
-    "location": "Kilimani",
+    "location": "Kisumu",
     "year": "2024",
     "style": "Contemporary styling",
     "caption": "A complete apartment palette with quiet architectural detail."
   },
   {
-    "title": "Runda Family Home",
+    "title": "Nakuru Family Home",
     "image": "../full/full4.jpeg",
-    "location": "Runda",
+    "location": "Nakuru",
     "year": "2024",
     "style": "Residential design",
     "caption": "Connected rooms, natural textures and storage that disappears."
   },
   {
-    "title": "Lavington Office",
+    "title": "Garissa Office",
     "image": "../full/full5.jpeg",
-    "location": "Lavington",
+    "location": "Garissa",
     "year": "2023",
     "style": "Retail fit-out",
     "caption": "A considered customer journey carried through every surface."
   },
   {
-    "title": "Muthaiga Villa",
+    "title": "Nyeri Villa",
     "image": "../full/full1.jpeg",
-    "location": "Muthaiga",
+    "location": "Nyeri",
     "year": "2023",
     "style": "Turnkey interiors",
     "caption": "A fully managed transformation from first drawing to final styling."
   },
   {
-    "title": "Kileleshwa Townhouse",
+    "title": "Kiambu Townhouse",
     "image": "../full/full2.jpeg",
-    "location": "Kileleshwa",
+    "location": "Kiambu",
     "year": "2022",
     "style": "End-to-end design",
     "caption": "A polished, practical interior with a distinctly personal finish."

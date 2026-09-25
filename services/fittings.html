@@ -22,8 +22,16 @@
     .hub-list li { padding-top: 1rem; border-top: 1px solid var(--divider, var(--line)); }
     .hub-list strong { display: block; margin-bottom: .35rem; color: var(--text, #f5f2ec); font: 500 1.25rem / 1 var(--font-serif, 'Cormorant Garamond', serif); }
     .hub-list span { color: var(--text-muted, var(--muted)); font: 300 .85rem / 1.6 var(--font-sans, 'Jost', sans-serif); }
+    .tv-area-section { padding: clamp(5rem, 10vw, 9rem) 0; background: var(--bg-secondary, var(--surface)); }
+    .tv-area-intro { max-width: 50ch; margin: -1.5rem auto 2.5rem; color: var(--text-muted, var(--muted)); text-align: center; font: 300 .95rem / 1.7 var(--font-sans, 'Jost', sans-serif); }
+    .tv-area-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; }
+    .tv-area-card { overflow: hidden; background: var(--bg-card, var(--card)); border: 1px solid var(--divider, var(--line)); border-radius: 8px; }
+    .tv-area-card img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; transition: transform .35s ease; }
+    .tv-area-card:hover img { transform: scale(1.04); }
+    .tv-area-card figcaption { padding: .8rem .9rem 1rem; color: var(--text-muted, var(--muted)); font: 300 .78rem / 1.4 var(--font-sans, 'Jost', sans-serif); }
     .fittings-advantage .style-card__image { aspect-ratio: 5 / 3; }
-    @media (max-width: 767px) { .service-page .container { width: calc(100% - 40px); } .hub-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 1024px) { .tv-area-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    @media (max-width: 767px) { .service-page .container { width: calc(100% - 40px); } .hub-grid { grid-template-columns: 1fr; } .tv-area-intro { margin-top: -1rem; } .tv-area-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   </style>
 </head>
 <body class="service-page">
@@ -55,6 +63,20 @@
         <div class="hub-grid">
           <article class="hub-card"><p class="eyebrow">For homeowners</p><h3>Residential Fittings</h3><p>Elegant, space-maximizing systems that make daily routines feel more effortless and beautifully considered.</p><ul class="hub-list"><li><strong>Smart Kitchen Systems</strong><span>Modular cabinetry, soft-close hardware, pull-out organizers and water-resistant under-sink setups.</span></li><li><strong>Bedroom &amp; Wardrobe Architecture</strong><span>Walk-in closets, sliding floor-to-ceiling wardrobe fittings and integrated shelving.</span></li></ul></article>
           <article class="hub-card hub-card--commercial"><p class="eyebrow">For businesses</p><h3>Commercial &amp; Business Storage</h3><p>Rugged, high-density and organized storage systems for inventory, retail, hospitality and offices.</p><ul class="hub-list"><li><strong>High-Density Warehousing &amp; Storerooms</strong><span>Heavy-duty modular shelving, bulk racking and secure inventory cages.</span></li><li><strong>Retail Displays &amp; Office Storage</strong><span>Slatwalls, cash wraps, filing networks and hidden utility enclosures.</span></li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="tv-area-section" id="tv-area">
+      <div class="container">
+        <div class="section-title"><span></span><h2>TV Area Fittings</h2><i aria-hidden="true"></i><span></span></div>
+        <p class="tv-area-intro">Purpose-built media walls that bring the screen, storage, lighting and finish together in one calm composition.</p>
+        <div class="tv-area-grid">
+          <figure class="tv-area-card"><img src="../tv area/t1.jpeg" alt="Custom TV area fitting with integrated shelving" loading="lazy" /><figcaption>Integrated media shelving</figcaption></figure>
+          <figure class="tv-area-card"><img src="../tv area/t2.jpeg" alt="Modern built-in TV wall fitting" loading="lazy" /><figcaption>Built-in TV wall</figcaption></figure>
+          <figure class="tv-area-card"><img src="../tv area/t3.jpeg" alt="Contemporary TV console and wall storage" loading="lazy" /><figcaption>Console and concealed storage</figcaption></figure>
+          <figure class="tv-area-card"><img src="../tv area/t4.jpeg" alt="Feature TV wall with decorative finish" loading="lazy" /><figcaption>Feature wall finish</figcaption></figure>
+          <figure class="tv-area-card"><img src="../tv area/t5.jpeg" alt="Complete living room TV area installation" loading="lazy" /><figcaption>Complete living room installation</figcaption></figure>
         </div>
       </div>
     </section>
